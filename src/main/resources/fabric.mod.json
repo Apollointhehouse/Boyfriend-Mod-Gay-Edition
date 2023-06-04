@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "boyfriend-mod",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Boyfriend Mod: Gay Edition",
+  "description": "This mod exists to fill the void in my heart.",
   "authors": [
-    "Turnip Labs"
+    "Apollointhehouse"
   ],
   "contact": {
     "homepage": "",
@@ -20,12 +20,12 @@
     "main": [
         {
           "adapter": "kotlin",
-          "value": "turniplabs.examplemod.ExampleModKt::init"
+          "value": "apollointhehouse.boyfriendMod.BoyfriendModKt::init"
         }
     ]
   },
   "mixins": [
-      "examplemod.mixins.json"
+      "boyfriendMod.mixins.json"
   ],
 
   "depends": {
